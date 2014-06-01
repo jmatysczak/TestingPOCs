@@ -13,5 +13,9 @@
     "istanbul": "~0.2.10",
     "squirejs": "~0.2.0",
     "requirejs": "~2.1.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmatysczak/TestingPOCs"
   }
 }
