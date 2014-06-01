@@ -3,7 +3,6 @@
   "name": "AMDTesting",
   "description": "Example of testing AMD style JavaScript with Node, Mocha, Should, RequireJS, SquireJS, and Istanbul.",
   "version": "0.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha"
   },
