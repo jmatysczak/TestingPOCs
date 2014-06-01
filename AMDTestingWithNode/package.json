@@ -1,0 +1,18 @@
+{
+  "author": "jmat@alum.mit.edu",
+  "name": "AMDTesting",
+  "description": "Example of testing AMD style JavaScript with Node, Mocha, Should, RequireJS, SquireJS, and Istanbul.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha"
+  },
+  "license": "unlicense",
+  "devDependencies": {
+    "mocha": "~1.20.0",
+    "should": "~4.0.0",
+    "istanbul": "~0.2.10",
+    "squirejs": "~0.2.0",
+    "requirejs": "~2.1.13"
+  }
+}
