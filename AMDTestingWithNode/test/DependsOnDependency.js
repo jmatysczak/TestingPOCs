@@ -16,11 +16,11 @@ describe("DependsOnDependency", function() {
         });
     }
 
-    it("should return 'red' when the value is 0", function(done) {
+    it("should return 'red' when Dependency.getValue returns 0", function(done) {
       forValueStatusShouldBe(0, "red", done);
     });
 
-    it("should return 'green' when the value is 1", function(done) {
+    it("should return 'green' when Dependency.getValue returns 1", function(done) {
       forValueStatusShouldBe(1, "green", done);
     });
   });
